@@ -211,6 +211,9 @@
                                         <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BP6-3C-oTV" kind="show" id="yj6-F3-2ss"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -302,6 +305,9 @@
                                         <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="1vo-pf-0Lr" kind="show" id="t8W-a1-xgN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWA-5J-1W9" customClass="RoundButton" customModule="Design6" customModuleProvider="target">
                                 <rect key="frame" x="42" y="580" width="136" height="59"/>
@@ -352,4 +358,7 @@
         <image name="swipe_right" width="128" height="128"/>
         <image name="thumbDown" width="521" height="718"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="t8W-a1-xgN"/>
+    </inferredMetricsTieBreakers>
 </document>
